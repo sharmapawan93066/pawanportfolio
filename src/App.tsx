@@ -841,13 +841,25 @@ export default function App() {
               gap: 12,
             }}
           >
-            <a href="#" style={BASE.button}>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+              style={styles.button}
+            >
               LINKEDIN
             </a>
-            <a href="#" style={BASE.button}>
+
+            <a
+              href="https://www.youtube.com/@heritageacrossborders"
+              target="_blank"
+              rel="noreferrer"
+              style={styles.button}
+            >
               YOUTUBE
             </a>
-            <a href="#contact" style={BASE.button}>
+
+            <a href="#contact" style={styles.button}>
               HIRE ME
             </a>
           </div>
