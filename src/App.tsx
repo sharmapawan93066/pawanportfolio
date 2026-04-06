@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { correctBorderRadius, motion } from "framer-motion";
 
 type EducationItem = {
   title: string;
@@ -440,6 +440,15 @@ export default function App() {
       color: "rgba(255,255,255,0.78)",
       lineHeight: 1.8,
       fontSize: isMobile ? 15 : 16,
+    },
+    button: {
+      display: "inline-block",
+      padding: "12px 20px",
+      textDecoration: "none",
+      borderRadius: "10px",
+      fontweight: "bold",
+      background: "#111",
+      color: "#fff",
     },
   };
 
